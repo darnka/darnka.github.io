@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@300;900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" type="image/png" href="img/favicon.png">
+	<title>Hírek</title>
+</head>
+
+<body>
+
+	<nav class="navbar navbar-expand-lg bg-light fixed-top shadow">
+		<div class="container d-flex"> <a class="navbar-brand" href="lakokozosseg.html"><span
+					class="h4 fw-bold l-blue text-uppercase">Lakó<span
+						class="h4 fw-bold blue">Közösség</span></span></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"
+				aria-controls="nav" aria-expanded="false" aria-label="navigation"> <span
+					class="navbar-toggler-icon"></span> </button>
+			<div class="collapse navbar-collapse" id="nav">
+				<div class="flex-fill">
+					<ul class="nav navbar-nav justify-content-between mx-xl-5 text-center me-auto mb-lg-0">
+						<li class="nav-item active"><a class="nav-link px-3" href="lakokozosseg.html">Hírek</a></li>
+						<li class="nav-item"><a class="nav-link px-3" href="informacio.html">Információ</a></li>
+						<li class="nav-item"><a class="nav-link px-3" href="kalkulator.html">Kalkulátor</a></li>
+						<li class="nav-item"><a class="nav-link px-3" href="galeria.html">Galéria</a></li>
+						<li class="nav-item"><a class="nav-link px-3" href="hirdetes.html">Hirdetés</a></li>
+						<li class="nav-item"><a class="nav-link px-3" href="forum.html">Fórum</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<div class="mt-5 w-100 position position-relative h-50" id="bg-news"></div>
+
+	<div class="container">
+		<header class="col">
+			<h1 class="display-1 shadow-lg fw-bold position-absolute text-center start-50" id="main-title">Aktualitások
+			</h1>
+		</header>
+	</div>
+
+	<article class="row d-flex flex-row justify-content-around bg-white rounded border">
+		<div class="col-10 col-md-6 text-start align-self-center pt-3">
+			<h5>Közgyűlési meghívó</h5>
+			<p class="fst-italic">A társasház következő közgyűlését 2023. 05-én 18 órakor tartjuk. </p>
+		</div>
+		<div class="col-md-2 me-5 text-center text-md-end align-self-center mb-4 mb-md-0"> <a
+				href="documents/kozgyulesi_meghivo.pdf" download class="btn px-4">Letöltöm</a> </div>
+	</article>
+	
+	<main class="container-fluid my-4 py-5">
+		<div class="row">
+			<header class="col-1 d-none d-lg-block me-5 mt-5 g-0">
+				<h1 class="display-1 fw-bold vertical-text">Hírek</h1>
+			</header>
+			<div class="col-lg-5 py-3 py-lg-5 pe-lg-5">
+				<div class="row">
+					<div class="col px-4 d-flex flex-column">
+						<p class="mb-2 handwriting border-top pt-2">Közösségi élet</p>
+						<h3 class="mb-4"><span class="colored-line">Fotók</span></h3>
+						<div class="mb-1 pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam qui
+							numquam tempore? </div> <a href="galeria.html"
+							class="text-decoration-none mb-5 mb-md-0">Megnézem <i
+								class="bi bi-chevron-double-right small"></i></a>
+					</div>
+					<div class="col-auto mx-auto mx-md-0 my-auto bg-white shadow-lg news-img"> <img
+							src="img/fenykepezogep.png" alt="Új fotók"> </div>
+				</div>
+			</div>
+			<div class="col-lg-5 py-3 py-lg-5">
+				<div class="row mb-4">
+					<div class="col px-4 d-flex flex-column">
+						<p class="mb-2 handwriting border-top pt-2">Információ</p>
+						<h3 class="mb-4"><span class="colored-line">Lomtalanítás</span></h3>
+						<div class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam qui numquam
+							tempore?</div>
+						<p class="pt-4 mb-5 mb-md-0">Időpont: 2023. 05. 10.</p>
+					</div>
+					<div class="col-auto mx-auto mx-md-0 my-auto bg-white shadow-lg news-img"> <img src="img/lom.png"
+							alt="Lomtalanítás"> </div>
+				</div>
+			</div>
+			<div class="col-1 d-none d-lg-block me-5 mt-5"> </div>
+			<div class="col-lg-5 py-3 py-lg-5 pe-lg-5">
+				<div class="row mb-4">
+					<div class="col px-4 d-flex flex-column">
+						<p class="mb-2 handwriting border-top pt-2">Sport</p>
+						<h3 class="mb-4"><span class="colored-line">Kirándulás</span></h3>
+						<div class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam qui numquam
+							tempore?</div>
+						<p class="pt-4 mb-5 mb-md-0">Időpont: 2023. 04. 10.</p>
+					</div>
+					<div class="col-auto mx-auto mx-md-0 my-auto bg-white shadow-lg news-img"> <img
+							src="img/hatizsak.png" alt="Kirándulás"> </div>
+				</div>
+			</div>
+			<div class="col-lg-5 pt-3 py-md-3 py-lg-5">
+				<div class="row mb-4">
+					<div class="col px-4 d-flex flex-column">
+						<p class="mb-2 handwriting border-top pt-2">Karbantartás</p>
+						<h3 class="mb-4"><span class="colored-line">Térkő javítás</span></h3>
+						<div class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam qui numquam
+							tempore?</div>
+						<p class="pt-4 mb-5 mb-md-0">Időpont: 2023. 05. 1.</p>
+					</div>
+					<div class="col-auto mx-auto mx-md-0 my-auto bg-white shadow-lg news-img"> <img src="img/ko.png"
+							alt="Karbantartás"> </div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer class="small fw-lighter pt-5 mt-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-10 col-md-6 col-lg-3 mx-auto my-lg-0">
+					<h5 class="mb-lg-4 mb-3">Közösképviselet</h5>
+					<ul class="list-unstyled">
+						<li>
+							<p><i class="bi bi-geo-alt-fill me-3"></i>1111 Budapest, Blabla u. 1.</p>
+						</li>
+						<li>
+							<p><i class="bi bi-envelope-fill me-3"></i><a href="mailto:lakokozosseg.info@gmail.com"
+									class="text-decoration-none">lk.info@gmail.hu</a></p>
+						</li>
+						<li>
+							<p><i class="bi bi-telephone-fill me-3"></i>+36 30 765 4321</p>
+						</li>
+					</ul>
+				</div>
+				<div class="col-10 col-md-6 col-lg-3 mx-auto my-5 my-md-0 my-lg-0">
+					<h5 class="mb-lg-4 mb-3">Nyitvatartás</h5>
+					<ul class="list-unstyled">
+						<li class="list-group-item d-flex lh-lg">Hétfő - Péntek: <span>8:00 - 18:00</span></li>
+						<li class="list-group-item d-flex lh-lg">Szombat: <span>8:00 - 16:00</span></li>
+						<li class="list-group-item d-flex lh-lg">Vasárnap: <span>9:00 - 12:00</span></li>
+					</ul>
+				</div>
+				<div class="col-10 col-md-6 col-lg-1 mx-auto mt-md-5 my-lg-0 ms-lg-2">
+					<h5 class="mb-lg-4 mb-3">Menü</h5>
+					<ul class="nav flex-column text-decoration-none">
+						<li class="nav-item mb-2"><a href="lakokozosseg.html" class="nav-link p-0">Hírek</a></li>
+						<li class="nav-item mb-2"><a href="informacio.html" class="nav-link p-0">Információ</a></li>
+						<li class="nav-item mb-2"><a href="kalkulator.html" class="nav-link p-0">Kalkulátor</a></li>
+						<li class="nav-item mb-2"><a href="galeria.html" class="nav-link p-0">Galéria</a></li>
+						<li class="nav-item mb-2"><a href="hirdetes.html" class="nav-link p-0">Hirdetés</a></li>
+						<li class="nav-item mb-2"><a href="forum.html" class="nav-link p-0">Fórum</a></li>
+					</ul>
+				</div>
+				<div class="col-10 col-md-6 col-lg-4 mx-auto mt-5 my-lg-0  text-center text-md-start text-lg-center">
+					<img src="img/logo.png" alt="Logo" class="w-50 mt-0">
+					<p class="mb-lg-4 mb-3 blue">24 órás hibabejelentés:</p>
+					<p><i class="bi bi-envelope-fill me-3"></i><a href="mailto:lakokozosseg.hiba@gmail.com"
+							class="text-decoration-none">lk.hiba@gmail.hu</a></p>
+					<p><i class="bi bi-telephone-fill me-3"></i>+36 30 123 4567</p>
+				</div>
+				<div class="container-fluid border-top w-75 pt-3 mt-4">
+					<p class="text-center">&copy; Lakóközösség 2023 - Minden jog fenntartva.<span
+							class="ms-2">Készítette:
+							<a href="https://github.com/darnka" target="_blank"
+								class="text-decoration-none">Darnka</a></span> </p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+		crossorigin="anonymous"></script>
+
+</body>
+
+</html>
